@@ -2,7 +2,7 @@
 set -e
 
 # Define variables
-FUNCTION_NAME="cicdLambdatest"
+FUNCTION_ARN="arn:aws:lambda:us-west-2:466733620502:function:cicdLambdatest"
 ZIP_FILE="lambda_function.zip"
 AWS_REGION="us-east-1"
 
@@ -16,4 +16,4 @@ cd ..
 zip -g $ZIP_FILE lambda_function.py
 
 # Deploy the function
-aws lambda update-function-code --function-name $FUNCTION_NAME --zip-file fileb://$ZIP_FILE --region $AWS_REGION
+aws lambda update-function-code --function-name $FUNCTION_ARN --zip-file fileb://$ZIP_FILE --region $AWS_REGION
