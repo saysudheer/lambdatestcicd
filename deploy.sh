@@ -6,7 +6,11 @@ FUNCTION_ARN="arn:aws:lambda:us-west-2:466733620502:function:cicdLambdatest"
 ZIP_FILE="lambda_function.zip"
 AWS_REGION="us-west-2"
 
-# Install dependencies
+# Remove old package directory if it exists
+rm -rf package lambda_function.zip
+
+# Install dependencies inside a 'package' directory
+mkdir package
 pip install -r requirements.txt -t package
 
 # Create deployment package
