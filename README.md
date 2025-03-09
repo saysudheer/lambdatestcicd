@@ -68,4 +68,4 @@ Check the response and logs in the console.
 ### **Github actions workflow**
 Check in the actions tab for workflow job status
 
-https://github.com/saysudheer/lambdatestcicd/blob/main/image.png
+![GitHub Actions Workflow](https://github.com/saysudheer/lambdatestcicd/blob/main/image.png)
