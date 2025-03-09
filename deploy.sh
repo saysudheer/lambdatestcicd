@@ -2,7 +2,7 @@
 set -e
 
 # Define variables
-FUNCTION_NAME="JokesLambdaFunctionTest"
+FUNCTION_NAME="cicdLambdatest"
 ZIP_FILE="lambda_function.zip"
 AWS_REGION="us-east-1"
 
