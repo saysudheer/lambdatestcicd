@@ -65,5 +65,4 @@ Check the response and logs in the console.
 }
 
 Github actions workflow 
-![image](https://github.com/user-attachments/assets/cd17821e-b5df-431e-8b0a-f241f8dd0da3)
-
+Check in the actions tab for workflow job status
