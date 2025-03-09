@@ -63,6 +63,9 @@ Check the response and logs in the console.
   "statusCode": 200,
   "body": "{\"joke\": \"Why don't skeletons fight each other? - They don't have the guts.\"}"
 }
+```
 
-Github actions workflow 
+### **Github actions workflow**
 Check in the actions tab for workflow job status
+
+https://github.com/saysudheer/lambdatestcicd/blob/main/image.png
