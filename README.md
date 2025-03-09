@@ -43,3 +43,25 @@ Click **Next: Tags** → **Next: Review** → **Create User**.
 
 ### **3️⃣ Write AWS Lambda Function**
 Create a new directory and add a **Lambda function** that fetches a random joke.
+### **4️⃣ Test AWS Lambda Function**
+
+**Test Using AWS Lambda Console**
+
+1. Go to **AWS Lambda Console → AWS Lambda**.
+
+2. Search for **cicdLambdatest and click on it**.
+
+3. Click the **"Test"** button at the top.
+
+4. Enter a test event (or leave it empty) and click "Invoke".
+
+Check the response and logs in the console.
+
+📌 **Expected Output:**
+```json
+{
+  "statusCode": 200,
+  "body": "{\"joke\": \"Why don't skeletons fight each other? - They don't have the guts.\"}"
+}
+
+
